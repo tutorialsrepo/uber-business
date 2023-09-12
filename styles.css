@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 100px;
+  border: 1px solid black;
+}
+
+header nav {
+  display: flex;
+}
+
+nav > * {
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav > *:hover {
+  color: rgb(45, 108, 225);
+}
+
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+
+.left-content {
+  max-width: 450px;
+}
+
+.left-content > * {
+  margin: 20px;
+}
+
+.left-content h1 {
+  font-size: 35px;
+}
+
+.left-content {
+  font-size: 20px;
+}
+
+.left-content button {
+  background-color: black;
+  color: white;
+}
+
+.rides-occasion {
+  padding: 0px 100px;
+}
+
+.rides-occasion h3 {
+  margin: 20px 0px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  max-width: 350px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card > * {
+  margin: 15px 0px;
+}
+
+.platforms {
+  padding: 0px 100px;
+}
+
+.zoom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px 100px;
+}
+
+.zoom-details {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.zoom-details > * {
+  margin: 20px 0px;
+}
+.ways-to-ride {
+  padding: 0px 100px;
+}
+
+.platforms-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.get-started {
+  padding: 100px 100px;
+  text-align: center;
+}
+
+.get-started button {
+  margin: 40px;
+  background-color: black;
+  color: white;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
